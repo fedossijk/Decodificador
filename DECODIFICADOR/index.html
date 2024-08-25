@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="imagens/logoAlura.png" alt="logo Alura">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+
+    <div class="container-input">
+        <div class="input">
+            <textarea id="input-texto" placeholder="Digite o seu texto aqui..." ></textarea> 
+            <p> Atençao: Apenas letras maiusculas e sem acento</p>
+        </div>
+    
+    <div id="output">
+        <img src="imagens/mulher.png" alt="lmulher">
+        <h2>Seu texto aparecerá aqui</h2>
+        <button onclick="copiar()" class="btn-copiar">Copiar</button>
+    </div>
+
+    <div class="buttons>">
+        <div class="container-btn">
+            <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+        </div>
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <h3>Desenvolvido por Jéssika Antunes</h3>
+    </footer>
+
+
+    <script src="interacao/script.js"></script>
+</body>
+
+</html>
